@@ -1,0 +1,232 @@
+Script started on Thursday 28 February 2019 11:31:11 AM IST
+]0;s4dbatch2@CC2-24: ~s4dbatch2@CC2-24:~$ mkdir cmd
+]0;s4dbatch2@CC2-24: ~s4dbatch2@CC2-24:~$ cd cmd[K[K[K[K[K[Kls
+[0m[01;34mais[0m                         [01;34mcgpa[0m              [01;34mlinx[0m      t2.txt
+[01;34mas[0m                          [01;34mcmd[0m               [01;34mMusic[0m     [01;34mTemplates[0m
+a.txt                       [01;34mcmnd[0m              [01;34mPictures[0m  typescript
+b.txt                       [01;34mDesktop[0m           [01;34mPublic[0m    [01;34mVideos[0m
+ceccs17d61.07.02.19.txt     [01;34mDocuments[0m         [01;34ms1[0m
+ceccs17d61.07.02.2019.txt   [01;34mDownloads[0m         [01;34ms2[0m
+ceccs17d61.14.02.2019.text  examples.desktop  t1.txt
+]0;s4dbatch2@CC2-24: ~s4dbatch2@CC2-24:~$ cd cmd
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ ls -l
+total 0
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ ls -t
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ ls -tlt
+total 0
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ ls -lt[1Ptltr
+total 0
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ cat abc.[K[K[K[K[K>abc.txt
+e
+r
+t
+y^Z
+[1]+  Stopped                 cat > abc.txt
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ cat abc.txt
+e
+r
+t
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ cat>a[Kdef.txt
+ijk  
+k
+e
+k o^Z
+[2]+  Stopped                 cat > def.txt
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ alias ll='ds-al'
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ who
+s4dbatch2 :0           2019-02-28 09:05 (:0)
+s4dbatch2 pts/8        2019-02-28 09:12 (:0)
+s4dbatch2 pts/17       2019-02-28 11:30 (:0)
+s4dbatch2 pts/26       2019-02-28 10:56 (:0)
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ who -a
+           system boot  2019-02-28 09:04
+           run-level 2  2019-02-28 09:04
+LOGIN      tty4         2019-02-28 09:04               874 id=4
+LOGIN      tty5         2019-02-28 09:04               878 id=5
+LOGIN      tty2         2019-02-28 09:04               884 id=2
+LOGIN      tty3         2019-02-28 09:04               885 id=3
+LOGIN      tty6         2019-02-28 09:04               889 id=6
+LOGIN      tty1         2019-02-28 09:04              1044 id=1
+s4dbatch2 ? :0           2019-02-28 09:05   ?          2391 (:0)
+s4dbatch2 + pts/8        2019-02-28 09:12 00:14        4146 (:0)
+s4dbatch2 + pts/17       2019-02-28 11:30   .          4146 (:0)
+           pts/25       2019-02-28 11:02                 0 id=/25   term=0 exit=0
+s4dbatch2 + pts/26       2019-02-28 10:56 00:38        4146 (:0)
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ who aa
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ id
+uid=1008(s4dbatch2) gid=1008(s4dbatch2) groups=1008(s4dbatch2)
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ id -u
+1008
+]0;s4dbatch2@CC2-24: ~/cmds4dbatch2@CC2-24:~/cmd$ last -na
+s4dbatch pts/17       :0               Thu Feb 28 11:30   still logged in   
+s4dbatch pts/26       :0               Thu Feb 28 10:56   still logged in   
+s4dbatch pts/25       :0               Thu Feb 28 10:35 - 11:02  (00:26)    
+s4dbatch pts/17       :0               Thu Feb 28 10:30 - 10:58  (00:28)    
+s4dbatch pts/17       :0               Thu Feb 28 10:02 - 10:04  (00:02)    
+s4dbatch pts/8        :0               Thu Feb 28 09:12   still logged in   
+s4dbatch :0           :0               Thu Feb 28 09:05   still logged in   
+reboot   system boot  3.16.0-30-generi Thu Feb 28 09:04 - 11:38  (02:33)    
+s6d1     pts/1        :0               Tue Feb 26 15:38 - 15:47  (00:08)    
+s6d1     pts/1        :0               Tue Feb 26 15:31 - 15:38  (00:07)    
+s6d1     pts/1        :0               Tue Feb 26 15:28 - 15:29  (00:01)    
+s6d1     pts/1        :0               Tue Feb 26 15:19 - 15:28  (00:08)    
+s6d1     pts/1        :0               Tue Feb 26 15:11 - 15:18  (00:07)    
+s6d1     pts/1        :0               Tue Feb 26 14:40 - 15:11  (00:31)    
+s6d1     pts/1        :0               Tue Feb 26 14:38 - 14:40  (00:01)    
+s6d1     pts/1        :0               Tue Feb 26 14:37 - 14:38  (00:01)    
+s6d1     pts/1        :0               Tue Feb 26 14:19 - 14:37  (00:17)    
+s6d1     pts/1        :0               Tue Feb 26 14:03 - 14:19  (00:16)    
+s6d1     pts/1        :0               Tue Feb 26 13:59 - 14:03  (00:03)    
+s6d1     pts/1        :0               Tue Feb 26 13:16 - 13:59  (00:43)    
+s6d1     pts/1        :0               Tue Feb 26 13:14 - 13:14  (00:00)    
+s6d1     :0           :0               Tue Feb 26 13:08 - down   (02:39)    
+reboot   system boot  3.16.0-30-generi Tue Feb 26 13:07 - 15:47  (02:39)    
+s4c57    pts/22       :1               Tue Feb 26 10:22 - 11:51  (01:29)    
+s4c57    pts/26       :1               Tue Feb 26 10:15 - 10:22  (00:06)    
+s4c57    :1           :1               Tue Feb 26 10:14 - down   (01:36)    
+cec-lab2 pts/0        :0               Tue Feb 26 10:12 - down   (01:39)    
+cec-lab2 pts/9        :0               Tue Feb 26 10:10 - 10:11  (00:01)    
+cec-lab2 :0           :0               Tue Feb 26 10:09 - down   (01:41)    
+reboot   system boot  3.16.0-30-generi Tue Feb 26 10:07 - 11:51  (01:44)    
+s6cb2    pts/3        :0               Mon Feb 25 14:45 - 14:50  (00:04)    
+s6cb2    pts/3        :0               Mon Feb 25 13:25 - 14:45  (01:20)    
+s6cb2    pts/11       :0               Mon Feb 25 13:12 - 13:12  (00:00)    
+s6cb2    :0           :0               Mon Feb 25 13:11 - down   (02:05)    
+reboot   system boot  3.16.0-30-generi Mon Feb 25 13:10 - 15:16  (02:06)    
+s4d1     pts/0        :0               Mon Feb 25 12:00 - 12:00  (00:00)    
+s4d1     pts/23       :0               Mon Feb 25 11:11 - 12:00  (00:49)    
+s4d1     pts/23       :0               Mon Feb 25 10:32 - 10:48  (00:16)    
+s4d1     pts/11       :0               Mon Feb 25 09:07 - 11:58  (02:51)    
+s4d1     :0           :0               Mon Feb 25 09:06 - down   (02:53)    
+reboot   system boot  3.16.0-30-generi Mon Feb 25 09:06 - 12:00  (02:54)    
+s6d1     pts/0        :0               Tue Feb 19 13:07 - 15:45  (02:38)    
+s6d1     :0           :0               Tue Feb 19 13:06 - down   (02:39)    
+reboot   system boot  3.16.0-30-generi Tue Feb 19 13:05 - 15:46  (02:40)    
+s4c1     pts/23       :0               Tue Feb 19 10:33 - 10:35  (00:01)    
+s4c1     pts/0        :0               Tue Feb 19 09:18 - 11:58  (02:40)    
+s4c1     :0           :0               Tue Feb 19 09:15 - 11:58  (02:42)    
+reboot   system boot  3.16.0-30-generi Tue Feb 19 09:11 - 11:58  (02:47)    
+s6d2lab  pts/1        :0               Fri Feb 15 09:47 - down   (02:34)    
+s6d2lab  pts/10       :0               Fri Feb 15 09:41 - down   (02:40)    
+s6d2lab  :0           :0               Fri Feb 15 09:40 - down   (02:41)    
+reboot   system boot  3.16.0-30-generi Fri Feb 15 09:40 - 12:21  (02:41)    
+s457     pts/65       :3               Thu Feb 14 15:38 - 15:39  (00:00)    
+s457     pts/45       :3               Thu Feb 14 15:15 - 15:52  (00:37)    
+s457     pts/45       :3               Thu Feb 14 14:54 - 15:15  (00:20)    
+s457     :3           :3               Thu Feb 14 14:47 - down   (01:04)    
+cec-lab2 pts/42       :2               Thu Feb 14 14:45 - down   (01:07)    
+cec-lab2 :2           :2               Thu Feb 14 14:44 - down   (01:07)    
+tpc      pts/26       :1               Thu Feb 14 14:38 - down   (01:14)    
+tpc      :1           :1               Thu Feb 14 14:37 - down   (01:14)    
+s4c1     pts/9        :0               Thu Feb 14 14:36 - down   (01:16)    
+s4c1     :0           :0               Thu Feb 14 14:35 - down   (01:16)    
+reboot   system boot  3.16.0-30-generi Thu Feb 14 14:33 - 15:52  (01:18)    
+s4dbatch pts/10       :0               Thu Feb 14 11:55 - 11:55  (00:00)    
+s4dbatch pts/10       :0               Thu Feb 14 11:54 - 11:55  (00:00)    
+s4dbatch pts/10       :0               Thu Feb 14 11:54 - 11:54  (00:00)    
+s4dbatch pts/9        :0               Thu Feb 14 11:54 - 11:56  (00:01)    
+s4dbatch pts/25       :0               Thu Feb 14 11:30 - 11:50  (00:19)    
+s4dbatch pts/9        :0               Thu Feb 14 09:15 - 11:51  (02:35)    
+s4dbatch :0           :0               Thu Feb 14 09:05 - down   (02:50)    
+reboot   system boot  3.16.0-30-generi Thu Feb 14 09:04 - 11:56  (02:51)    
+s6d1     pts/0        :0               Tue Feb 12 15:53 - down   (00:01)    
+s6d1     pts/0        :0               Tue Feb 12 14:39 - 15:53  (01:13)    
+s6d1     pts/0        :0               Tue Feb 12 14:16 - 14:39  (00:22)    
+s6d1     pts/9        :0               Tue Feb 12 13:14 - 14:16  (01:02)    
+s6d1     :0           :0               Tue Feb 12 13:13 - down   (02:41)    
+reboot   system boot  3.16.0-30-generi Tue Feb 12 13:10 - 15:55  (02:44)    
+s4c1     pts/42       :3               Tue Feb 12 11:03 - 12:01  (00:57)    
+s4c1     pts/42       :3               Tue Feb 12 11:00 - 11:01  (00:00)    
+s4c1     pts/61       :3               Tue Feb 12 10:59 - 11:00  (00:00)    
+s4c1     :3           :3               Tue Feb 12 10:59 - down   (01:03)    
+s4d1     pts/45       :2               Tue Feb 12 10:58 - down   (01:04)    
+s4d1     :2           :2               Tue Feb 12 10:58 - down   (01:04)    
+psc      pts/9        :1               Tue Feb 12 10:52 - 10:55  (00:02)    
+psc      pts/17       :1               Tue Feb 12 10:49 - 10:52  (00:03)    
+psc      :1           :1               Tue Feb 12 10:49 - down   (01:13)    
+s6cb2    pts/0        :0               Tue Feb 12 10:46 - 10:47  (00:00)    
+s6cb2    pts/0        :0               Tue Feb 12 10:43 - 10:46  (00:03)    
+s6cb2    pts/0        :0               Tue Feb 12 10:41 - 10:43  (00:02)    
+s6cb2    pts/9        :0               Tue Feb 12 10:38 - 10:40  (00:02)    
+s6cb2    :0           :0               Tue Feb 12 10:37 - down   (01:25)    
+reboot   system boot  3.16.0-30-generi Tue Feb 12 10:36 - 12:02  (01:25)    
+s6cb2    pts/7        :1               Mon Feb 11 15:12 - 15:33  (00:21)    
+s6cb2    pts/7        :1               Mon Feb 11 15:06 - 15:12  (00:05)    
+s6cb2    pts/7        :1               Mon Feb 11 14:55 - 15:06  (00:11)    
+s6cb2    pts/7        :1               Mon Feb 11 13:35 - 14:55  (01:19)    
+s6cb2    :1           :1               Mon Feb 11 13:34 - down   (01:59)    
+cec-lab2 pts/0        :0               Mon Feb 11 13:26 - down   (02:07)    
+cec-lab2 pts/6        :0               Mon Feb 11 13:21 - 13:21  (00:00)    
+cec-lab2 pts/0        :0               Mon Feb 11 13:21 - 13:22  (00:00)    
+cec-lab2 pts/0        :0               Mon Feb 11 13:20 - 13:20  (00:00)    
+cec-lab2 pts/0        :0               Mon Feb 11 13:16 - 13:19  (00:03)    
+cec-lab2 :0           :0               Mon Feb 11 13:08 - down   (02:25)    
+reboot   system boot  3.16.0-30-generi Mon Feb 11 13:07 - 15:33  (02:26)    
+s4d1     pts/46       :2               Mon Feb 11 11:10 - 12:02  (00:52)    
+s4d1     pts/46       :2               Mon Feb 11 10:45 - 10:45  (00:00)    
+s4d1     pts/44       :2               Mon Feb 11 09:53 - 12:02  (02:09)    
+s4d1     :2           :2               Mon Feb 11 09:50 - down   (02:12)    
+cec-lab2 pts/41       :0               Mon Feb 11 09:48 - 10:20  (00:31)    
+cec-lab2 pts/9        :0               Mon Feb 11 09:46 - down   (02:16)    
+cec-lab2 pts/9        :0               Mon Feb 11 09:43 - 09:43  (00:00)    
+tpc      pts/25       :1               Mon Feb 11 09:19 - down   (02:44)    
+tpc      pts/0        :1               Mon Feb 11 09:13 - down   (02:49)    
+tpc      :1           :1               Mon Feb 11 09:06 - down   (02:56)    
+cec-lab2 :0           :0               Mon Feb 11 09:05 - down   (02:58)    
+reboot   system boot  3.16.0-30-generi Mon Feb 11 09:04 - 12:03  (02:58)    
+s6d2lab  pts/11       :1               Fri Feb  8 11:15 - down   (01:09)    
+s6d2lab  pts/3        :1               Fri Feb  8 10:54 - down   (01:29)    
+s6d2lab  pts/3        :1               Fri Feb  8 10:36 - 10:54  (00:17)    
+s6d2lab  pts/11       :1               Fri Feb  8 10:01 - 10:36  (00:35)    
+s6d2lab  :1           :1               Fri Feb  8 10:01 - down   (02:23)    
+cec-lab2 pts/3        :0               Fri Feb  8 09:58 - 10:00  (00:02)    
+cec-lab2 :0           :0               Fri Feb  8 09:57 - down   (02:26)    
+reboot   system boot  3.16.0-30-generi Fri Feb  8 09:57 - 12:24  (02:26)    
+cec-lab2 pts/0        :0               Fri Feb  8 09:53 - 09:54  (00:01)    
+cec-lab2 pts/0        :0               Fri Feb  8 09:49 - 09:53  (00:04)    
+cec-lab2 pts/0        :0               Fri Feb  8 09:47 - 09:48  (00:01)    
+cec-lab2 :0           :0               Fri Feb  8 09:43 - 09:54  (00:11)    
+reboot   system boot  3.16.0-30-generi Fri Feb  8 09:43 - 09:56  (00:13)    
+s4dbatch pts/1        :0               Thu Feb  7 11:54 - 11:59  (00:04)    
+s4dbatch pts/1        :0               Thu Feb  7 10:16 - 11:54  (01:38)    
+s4dbatch :0           :0               Thu Feb  7 10:13 - down   (01:46)    
+tpc      :0           :0               Thu Feb  7 10:10 - 10:13  (00:02)    
+cec-lab2 pts/1        :0               Thu Feb  7 09:42 - 10:07  (00:24)    
+cec-lab2 pts/1        :0               Thu Feb  7 09:13 - 09:42  (00:28)    
+cec-lab2 :0           :0               Thu Feb  7 09:07 - 10:07  (01:00)    
+reboot   system boot  3.16.0-30-generi Thu Feb  7 09:07 - 11:59  (02:52)    
+tpc      :2           :2               Wed Feb  6 15:40 - down   (00:02)    
+guest-TU :1           :1               Wed Feb  6 15:33 - down   (00:09)    
+cec-lab2 pts/0        :0               Wed Feb  6 20:50 - 20:50  (00:00)    
+cec-lab2 pts/0        :0               Wed Feb  6 20:29 - 20:29  (00:00)    
+cec-lab2 pts/10       :0               Wed Feb  6 20:19 - down   (-4:-36)   
+cec-lab2 :0           :0               Wed Feb  6 20:19 - down   (-4:-36)   
+reboot   system boot  3.16.0-30-generi Wed Feb  6 20:19 - 15:42  (-4:-36)   
+guest-EH :2           :2               Wed Feb  6 20:16 - crash  (00:02)    
+guest-41 :1           :1               Wed Feb  6 20:14 - crash  (00:04)    
+cec-lab2 pts/11       :0               Wed Feb  6 19:37 - crash  (00:41)    
+cec-lab2 pts/11       :0               Wed Feb  6 19:30 - 19:37  (00:07)    
+cec-lab2 pts/11       :0               Wed Feb  6 19:29 - 19:29  (00:00)    
+cec-lab2 pts/9        :0               Wed Feb  6 19:21 - crash  (00:57)    
+cec-lab2 pts/0        :0               Wed Feb  6 19:02 - crash  (01:16)    
+cec-lab2 pts/0        :0               Wed Feb  6 18:58 - 18:58  (00:00)    
+cec-lab2 :0           :0               Wed Feb  6 18:56 - crash  (01:22)    
+reboot   system boot  3.16.0-30-generi Wed Feb  6 18:56 - 15:42  (-3:-13)   
+s6d1     pts/3        :0               Tue Feb  5 19:10 - 21:23  (02:13)    
+s6d1     pts/6        :0               Tue Feb  5 18:46 - 19:10  (00:23)    
+s6d1     :0           :0               Tue Feb  5 18:46 - down   (02:37)    
+cec-lab2 pts/3        :0               Tue Feb  5 18:43 - 18:46  (00:02)    
+cec-lab2 :0           :0               Tue Feb  5 18:39 - 18:46  (00:06)    
+reboot   system boot  3.16.0-30-generi Tue Feb  5 18:39 - 21:23  (02:44)    
+s2c3     pts/8        :0               Tue Feb  5 16:03 - 17:28  (01:25)    
+s2c3     :0           :0               Tue Feb  5 15:54 - 17:28  (01:34)    
+cec-lab2 pts/0        :0               Tue Feb  5 15:51 - 15:54  (00:03)    
+cec-lab2 pts/0        :0               Tue Feb  5 15:51 - 15:51  (00:00)    
+cec-lab2 pts/0        :0               Tue Feb  5 15:50 - 15:50  (00:00)    
+cec-lab2 :0           :0               Tue Feb  5 15:45 - 15:54  (00:08)    
+reboot   system boot  3.16.0-30-generi Tue Feb  5 15:45 - 17:28  (01:43)    
+cec-lab2 pts/3        :0               Mon Feb  4 19:00 - 21:05  (02:05)    
+cec-lab2 pts/3        :0               Mon Feb  4 18:41 - 19:00  (00:19)    
+cec-lab2 :0           :0               Mon Feb  4 18:37 - down   (02:28)    
+reboot   system boot  3.16.0-30-generi Mon Feb  4 18:37 - 21:06  (02:28)    
+tpc      pts/0        :0               Mon Fe
